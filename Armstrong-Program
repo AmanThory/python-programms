@@ -1,0 +1,27 @@
+# How to remove duplicate character from array
+
+# check Armstrong Number 153 
+
+	# 1*1*1 = 1
+	# 5*5*5 = 125
+	# 3*3*3 = 27
+
+# Total sum of the above is 153
+
+find_armstrong = 153
+temp = find_armstrong
+newArm = 0
+
+while find_armstrong!= 0 :
+	
+	value = find_armstrong % 10
+	newArm += value * value * value
+	find_armstrong = find_armstrong // 10
+
+if newArm == temp:
+	print(newArm , ' is Armstrong')
+else:
+	print(newArm , ' is not Armstrong Number')
+
+# Now we need to compare newArm and find_armstrong 
+# if both the value are same then the value is Armstrong Number
