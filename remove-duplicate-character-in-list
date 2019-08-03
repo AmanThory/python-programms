@@ -1,0 +1,11 @@
+
+array = [2, 3, 4, 2, 4, 5, 4]
+
+li = []
+
+for i in array:
+
+	if i not in li:
+		li.append(i)
+
+print(li)
