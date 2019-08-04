@@ -16,11 +16,61 @@ for i in range(1, 6):
 		else:
 			print(' ', end='')	
   
-  #third loop is used for column
-	for j in range(6, 0, -1):
+#third loop is used for column
+	for j in range(5, 0, -1):
 
+		if i < j:
+			print(' ', end='')
+		else:
+			print('*', end='')
+	print()			
+
+# Let's see the another star problem like
+
+**********
+****  ****
+***    ***
+**      **
+*        *
+*        *
+**      **
+***    ***
+****  ****
+**********
+
+
+for i in range(1, 6):
+
+	for j in range(6, 1, -1):
+		if i < j:
+			print('*', end='') 
+		else:
+			print(' ', end='')
+
+	for j in range(1, 6):
+		if i <= j :
+			print('*', end='')
+		else:
+			print(' ', end='')				
+	print()
+
+for i in range(1, 6):
+  
+  #second loop is used for column
+	for j in range(1, 6):
 		if j <= i:
 			print('*', end='')
 		else:
+			print(' ', end='')	
+  
+  #third loop is used for column
+	for j in range(5, 0, -1):
+
+		if i < j:
 			print(' ', end='')
-	print()			
+		else:
+			print('*', end='')
+	print()	
+
+
+
