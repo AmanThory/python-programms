@@ -73,6 +73,36 @@ for i in range(1, 6):
 	print()	
 
 
+
+
+# using two for loop
+
+# *        *
+# **      **
+# ***    ***
+# ****  ****
+# **********
+
+# lst1 = list(range(1, 6))
+# lst2 = list(range(1, 11))
+# first = 0
+
+# for i in lst1:
+# 	for j in lst2:
+
+# 		if j <= i or j >= len(lst2) - first:
+# 			print('*', end='') 
+		
+# 		else:
+# 			print(' ', end='')	
+
+# 	first += 1 		
+# 	print()
+
+
+
+# Using one for loop 
+
 # *        *
 # **      **
 # ***    ***
